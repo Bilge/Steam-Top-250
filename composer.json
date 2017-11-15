@@ -9,7 +9,7 @@
   ],
   "require": {
     "php": "^7.1",
-    "250/shared": "dev-master",
+    "250/shared": "dev-algo",
     "twig/twig": "^2",
     "doctrine/dbal": "^2",
     "monolog/monolog": "^1",
