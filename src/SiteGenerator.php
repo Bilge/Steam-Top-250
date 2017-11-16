@@ -48,8 +48,8 @@ final class SiteGenerator
             return;
         }
 
-        file_put_contents("$this->outPath/index.html", $this->twig->load('250.twig')->render(compact('games')));
+        file_put_contents("$this->outPath", $this->twig->load('250.twig')->render(compact('games')));
 
-        $this->logger->info("Site generated in: \"$this->outPath\".");
+        $this->logger->info("Page generated at: \"$this->outPath\".");
     }
 }

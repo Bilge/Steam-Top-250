@@ -18,7 +18,7 @@ final class GenerateCommand extends Command
             ->setName('generate')
             ->setDescription('Generate Steam Top 250 site content from database.')
             ->addArgument('db', InputArgument::REQUIRED, 'Path to database.')
-            ->addArgument('out', InputArgument::OPTIONAL, 'Output directory.', 'site')
+            ->addArgument('out', InputArgument::OPTIONAL, 'Output file.', 'site/index.html')
             ->addOption('algorithm', 'a', InputOption::VALUE_REQUIRED, 'Ranking algorithm', Algorithm::WILSON)
             ->addOption('weight', 'w', InputOption::VALUE_REQUIRED, 'Algorithm-defined weighting.', 1.)
         ;
