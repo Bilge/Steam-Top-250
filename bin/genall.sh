@@ -4,7 +4,9 @@ cd "$(dirname "$0")"/..
 
 db=../Steam\ importer\ test/db/steam80.sqlite
 
-bin/generate generate -a wilson "$db" site/wilson1.html
+bin/generate generate -a wilson -w 1.96 "$db" site/wilson95.html
+bin/generate generate -a wilson -w 2.5759 "$db" site/wilson99.html
+bin/generate generate -a wilson -w 4.4172 "$db" site/wilson99999.html
 bin/generate generate -a bayesian -w 1 "$db" site/bayesian1.html
 bin/generate generate -a bayesian -w 10 "$db" site/bayesian10.html
 bin/generate generate -a bayesian -w 50 "$db" site/bayesian50.html
