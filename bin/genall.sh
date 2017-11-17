@@ -19,6 +19,8 @@ algos=(
     'laplace	1'
     'laplace	500'
     'laplace_log	1'
+    'dirichlet_prior	500'
+    'dirichlet_prior_log	2'
     'torn	3.3219'
 )
 
