@@ -1,3 +1,13 @@
+.notice {
+    display: inline-block;
+    transform: translate(50%, 0);
+    padding: 1em 1.5em;
+
+    background: #111926;
+    border: 1px dashed #738ec7;
+    border-radius: 4px;
+}
+
 body {
     color: #c7d5e0;
     background: #171a21;
